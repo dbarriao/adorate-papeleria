@@ -1,0 +1,23 @@
+.carousel-item img {
+    height: 350px;    
+    object-fit: cover;}
+    .carousel-texto {
+    position: absolute;
+  top: 50%;                /* Centra vertical */
+  left: 50%;               /* Centra horizontal */
+    transform: translate(-50%, -50%);
+        text-align: center;
+    color: white;
+  z-index: 5;              /* Se pone encima del carrusel */
+    width: 100%;
+}
+
+.carousel-texto h2 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.carousel-texto p {
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
