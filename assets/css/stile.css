@@ -1,3 +1,7 @@
+body{
+  padding: 10px;
+  margin: 10px;;
+}
 .carousel-item img {
     height: 350px;    
     object-fit: cover;}
@@ -21,3 +25,8 @@
     font-size: 1.3rem;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
+.boton{
+  text-align: center;
+  font-size: medium;
+}
+
